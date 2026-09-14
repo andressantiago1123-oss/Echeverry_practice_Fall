@@ -11,5 +11,22 @@ namespace Echeverry_practice_Fall
         {
 
         }
+
+        private void btnQuit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void txtTextInput_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            txtTextInput.Clear();
+             txtNumericInput.Clear();
+             lstOut.Items.Clear();
+        }
     }
 }
