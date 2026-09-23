@@ -92,6 +92,7 @@
             lstOut.Name = "lstOut";
             lstOut.Size = new Size(411, 109);
             lstOut.TabIndex = 5;
+            lstOut.SelectedIndexChanged += lstOut_SelectedIndexChanged;
             // 
             // btnCalculate
             // 

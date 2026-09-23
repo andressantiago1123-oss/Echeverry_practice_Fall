@@ -25,8 +25,13 @@ namespace Echeverry_practice_Fall
         private void btnClear_Click(object sender, EventArgs e)
         {
             txtTextInput.Clear();
-             txtNumericInput.Clear();
-             lstOut.Items.Clear();
+            txtNumericInput.Clear();
+            lstOut.Items.Clear();
+        }
+
+        private void lstOut_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
