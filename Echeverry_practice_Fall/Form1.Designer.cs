@@ -67,6 +67,8 @@
             txtTextInput.Name = "txtTextInput";
             txtTextInput.Size = new Size(100, 23);
             txtTextInput.TabIndex = 2;
+            txtTextInput.Enter += txtTextInput_Enter;
+            txtTextInput.Leave += txtTextInput_Leave;
             // 
             // label3
             // 
@@ -92,7 +94,6 @@
             lstOut.Name = "lstOut";
             lstOut.Size = new Size(411, 109);
             lstOut.TabIndex = 5;
-            lstOut.SelectedIndexChanged += lstOut_SelectedIndexChanged;
             // 
             // btnCalculate
             // 
@@ -102,6 +103,7 @@
             btnCalculate.TabIndex = 6;
             btnCalculate.Text = "Calculate && &Display";
             btnCalculate.UseVisualStyleBackColor = true;
+            btnCalculate.Click += btnCalculate_Click;
             // 
             // btnClear
             // 
